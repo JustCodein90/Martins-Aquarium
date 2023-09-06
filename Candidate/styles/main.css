@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+
+#Candidate {
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aquamarine;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15px;
+    padding: 4px;
+    word-spacing: 3px;
+    line-height: 1.8;
+}
