@@ -6,7 +6,8 @@
  */
 const database = {
     fish: [
-        {
+         {
+            image:      ,
             name: "Bart",
             food: "crustaceans",
             size: 3,
@@ -14,6 +15,7 @@ const database = {
             harvested: "2019"
         },
         {
+            image:    ,
             name: "Tim",
             food: "small fish",
             size: 3,
@@ -21,6 +23,7 @@ const database = {
             harvested: "2017"
         },
         {
+            image:     ,
             name: "Bob",
             food: "small fish",
             size: 2,
