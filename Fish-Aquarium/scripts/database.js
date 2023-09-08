@@ -7,28 +7,28 @@
 const database = {
     fish: [
          {
-            image:      ,
-            name: "Bart",
-            food: "crustaceans",
-            size: 3,
-            species: "Reef fish",
-            harvested: "2019"
+            image: "https://images.squarespace-cdn.com/content/v1/583b4d62d2b857c44d4d4c90/1514496524333-Y7URQCXN8O2V16ZFBW1B/Clown_Triggerfish.jpg",
+            name: " Bart",
+            food: " Crustaceans",
+            size: ` ${18} inches `,
+            species: " Clown Triggerfish",
+            harvested: " 2015"
         },
         {
-            image:    ,
-            name: "Tim",
-            food: "small fish",
-            size: 3,
-            species: "crustaceans",
-            harvested: "2017"
+            image: "https://cdn.britannica.com/44/4144-004-43DD2776/Peneus-setiferus.jpg",
+            name: " Tim (Shrimp)",
+            food: " Algae",
+            size: ` ${2} inches`,
+            species: " Crustaceans",
+            harvested: " 2017"
         },
         {
-            image:     ,
-            name: "Bob",
-            food: "small fish",
-            size: 2,
-            species: "piranha",
-            harvested: "2019"
+            image: "https://images.surferseo.art/821fd378-4024-4723-b156-c842a200e585.jpeg",
+            name: " Bob",
+            food: " Fish",
+            size: ` ${12} inches`,
+            species: " Red Belly Piranha",
+            harvested: " 2019"
         }
     ]
 }

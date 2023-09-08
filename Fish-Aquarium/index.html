@@ -7,73 +7,33 @@
     <title>Document</title>
 </head>
 <body>
+      <!--Added navBar to give info there own pages for cleaner look-->
      <nav>
         <ul id="navBar">
-            <li><a href="">Home</a></li>
+            <li><a href="/index.html">Home</a></li>
             <li><a href="">Article</a></li>
-            <li><a href="">Places</a></li>
+            <li><a href="/Places.html">Places</a></li>
             <li><a href="">Quotes</a></li>
         </ul>
      </nav>
-
-    <h1>My Fishy Life</h1>
-
-    <section id="fromJava">
-        <div class="fishList">
-
-        </div>
-
-
-
-    </section>
-
-    <section>
-        <!---->
-        <ol id="fish">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-
-        
-        <article class="fishList">
-            
-        </article>
-        
-
-    </section>
-   
-
-
-    <!--Moving to own Page??
-    <section>
-        Listed of places visted when harvesting fish
-        <ol id="vistPlace">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-        Quotes to help people
-        <ol id="quotes">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
     
+     <h1>My Fishy Life</h1>
+    
+    <section class="fish_Pics">
 
+
+        <div class="fromJava"></div>
+        
     </section>
-    -->
-   
 
 
-    <!--Designating main.js as type="module" allows you to utilize the import and export 
+
+
+        <!--Designating main.js as type="module" allows you to utilize the import and export 
         syntax. Note that main.js is the only file we need to load via a <script> tag. 
         The import statements will cause a daisy-chain effect of sorts, causing any
         other imported modules to also be loaded and evaluated by the browser.-->
-    <script type="main.js" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
 

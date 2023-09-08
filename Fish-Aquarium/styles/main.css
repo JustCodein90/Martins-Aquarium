@@ -1,7 +1,44 @@
 #navBar {
+    background-color: white;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     border: 2px solid black;
 
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3430844.jpg) ;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fish__image {
+    border: 1em solid skyblue;
+    width: 12em;
+    height: 12em;
+    
+}
+
+
+.fish__card { 
+    background-color: aliceblue;
+    border: 3px solid black;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.fromJava {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+span {
+    font-weight: bold;
 }

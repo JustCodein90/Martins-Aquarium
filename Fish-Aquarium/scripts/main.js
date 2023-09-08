@@ -9,8 +9,9 @@ that is exported from a module that isn't the default export.*/
  }
 
 
- // Import the FishList function from the correct module
-import { FishList } from './FishList.js'
+
+// Import the FishList function from the correct module
+ import { FishList } from './FishList.js'  
 
 /*
     What is the CSS selector for the element where you
@@ -19,7 +20,7 @@ import { FishList } from './FishList.js'
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector(".fishList")
+const parentHTMLElement = document.querySelector(".fromJava")
 
 
 parentHTMLElement.innerHTML = FishList()
