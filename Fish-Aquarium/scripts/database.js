@@ -29,6 +29,14 @@ const database = {
             size: ` ${12} inches`,
             species: " Red Belly Piranha",
             harvested: " 2019"
+        },
+        {
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Whitespotted_puffer.JPG/1024px-Whitespotted_puffer.JPG", 
+            name: "John",
+            food: "Starfish", 
+            size: ` ${18} inches`,
+            speacies: "Whitespotetd Puffer",
+            harvested: "2017"
         }
     ]
 }
