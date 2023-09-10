@@ -35,7 +35,7 @@ const database = {
             name: "John",
             food: "Starfish", 
             size: ` ${18} inches`,
-            speacies: "Whitespotetd Puffer",
+            species: "Whitespotetd Puffer",
             harvested: "2017"
         }
     ]
