@@ -7,6 +7,12 @@ import { getFish } from './Fish/database.js';
         console.log(singleFish)
     }
 
+import { getTips} from "./Tips/dataTips.js"
+    const allTips = getTips()
+
+    for(const singleTip of allTips) {
+        console.log(singleTip)
+    }
 
 
  // Import the FishList function from the correct module
@@ -44,3 +50,9 @@ import { getFish } from './Fish/database.js';
         parentHTMLElementReg.innerHTML = fishRegList()
 
 
+
+// Start of Tipslist
+
+import{tipsListFunction} from "./Tips/tipsList.js";
+    const parentHTMLElementTips = document.querySelector(".tips")
+        parentHTMLElementTips.innerHTML = tipsListFunction()

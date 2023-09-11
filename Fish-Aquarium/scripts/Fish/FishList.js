@@ -12,14 +12,14 @@ export const FishList = () => {
     const fishes = getFish()
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="fishList">'
+    let htmlString = '<article class="fish__List">'
 
     // Create HTML representations of each fish here
     for (const singleFish of fishes) {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish__card">
-            <div><img  class="fish__image image--card" src="${singleFish.image}" /></div>
+            <div><img  class="fish__image" src="${singleFish.image}" /></div>
             <div class="fish__name"><span>Name:</span>${ singleFish.name}</div>
             <div class="fish__species"><span>Species:</span>  ${singleFish.species}</div>
             <div class="fish__length"><span>Length:</span>  ${singleFish.size}</div>
@@ -37,14 +37,14 @@ export const fishHolyList = () => {
     const fishes = mostHolyFish()
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="fishList">'
+    let htmlString = '<article class="fish__List">'
 
     // Create HTML representations of each fish here
     for (const singleFish of fishes) {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish__card">
-            <div><img  class="fish__image image--card" src="${singleFish.image}" /></div>
+            <div><img  class="fish__image" src="${singleFish.image}" /></div>
             <div class="fish__name"><span>Name:</span>${ singleFish.name}</div>
             <div class="fish__species"><span>Species:</span>  ${singleFish.species}</div>
             <div class="fish__length"><span>Length:</span>  ${singleFish.size}</div>
@@ -63,14 +63,14 @@ export const fishSoldierList = () => {
     const fishes = soldierFish()
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="fishList">'
+    let htmlString = '<article class="fish__List">'
 
     // Create HTML representations of each fish here
     for (const singleFish of fishes) {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish__card">
-            <div><img  class="fish__image image--card" src="${singleFish.image}" /></div>
+            <div><img  class="fish__image" src="${singleFish.image}" /></div>
             <div class="fish__name"><span>Name:</span>${ singleFish.name}</div>
             <div class="fish__species"><span>Species:</span>  ${singleFish.species}</div>
             <div class="fish__length"><span>Length:</span>  ${singleFish.size}</div>
@@ -91,7 +91,7 @@ export const fishRegList = () => {
     const fishes = nonHolyFish()
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<article class="fishList">'
+    let htmlString = '<article class="fish__List">'
 
     // Create HTML representations of each fish here
     for (const singleFish of fishes) {
