@@ -1,17 +1,17 @@
-import { locationList } from "./locationData.js";
+import { getLocation } from "./locationData.js";
 
 export const locationListFunction = () => {
 
-    const locations = locationList()
+    const locations = getLocation()
 
-    let htmlString = '<article class="locationList">'
+    let htmlString = '<article class="location__List">'
 
     for (const place of locations) {
 
     htmlString += `<section class="location__card">
-    <div class="location__image"<span>Species:</span> ${place.image}</div>
-    <div class="location__place"><span>Water:</span>  ${place.location}</div>
-    <div class="location__fish"><span>Tank:</span>  ${place.fish}</div>
+      <div><img class="location__image" scr="${place.image}" /></div>
+      <div class="location__place"><span>Water:</span>  ${place.location}</div>
+      <div class="location__fish"><span>Tank:</span>  ${place.fish}</div>
     </section>
     `}
 

@@ -14,6 +14,13 @@ import { getTips} from "./Tips/dataTips.js"
         console.log(singleTip)
     }
 
+import { getLocation } from "./Location/locationData.js";
+    const allLocations = getLocation()
+
+    for (const singleLocation of allLocations)
+        console.log(singleLocation)
+
+
 
  // Import the FishList function from the correct module
  import { FishList } from './Fish/FishList.js'; 
@@ -56,3 +63,9 @@ import { getTips} from "./Tips/dataTips.js"
 import{tipsListFunction} from "./Tips/tipsList.js";
     const parentHTMLElementTips = document.querySelector(".tips")
         parentHTMLElementTips.innerHTML = tipsListFunction()
+
+
+
+import {locationListFunction } from "./Location/locationList.js";
+    const parentHTMLElementLocation = document.querySelector(".allLocations")
+        parentHTMLElementLocation.innerHTML = locationListFunction()

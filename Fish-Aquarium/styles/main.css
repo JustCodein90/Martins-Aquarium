@@ -27,20 +27,20 @@ aside {
     background-color: lightgray;
   }
 
-.fish__List {
+.fish__List, .location__list {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
 }
 
-.fish__image {
+.fish__image, .location__image {
     border: 1em solid skyblue;
     width: 12em;
     height: 12em; 
 }
 
 
-.fish__card, .tips__card { 
+.fish__card, .tips__card, .location__card { 
     background-color: lightgray;
     border: 3px solid black;
     padding: 1em;
