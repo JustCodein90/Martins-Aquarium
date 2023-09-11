@@ -29,7 +29,8 @@ aside {
 
 .fish__List {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
 }
 
 .fish__image {
