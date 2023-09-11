@@ -1,4 +1,4 @@
-const locationDatabase = {
+const locationDataBase = {
     locationFish: [
 
         {
@@ -29,11 +29,4 @@ const locationDatabase = {
 export const locationList = () => {
     return locationDataBase.locationFish.map(copyOfSingleLocationObject => ({...copyOfSingleLocationObject}))
 }
-    
-    
-    
-    
-        
-
-    
     
