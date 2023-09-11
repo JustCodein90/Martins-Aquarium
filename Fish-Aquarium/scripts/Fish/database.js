@@ -10,7 +10,7 @@ const database = {
             image: "https://images.squarespace-cdn.com/content/v1/583b4d62d2b857c44d4d4c90/1514496524333-Y7URQCXN8O2V16ZFBW1B/Clown_Triggerfish.jpg",
             name: " Bart",
             food: " Crustaceans",
-            size: 18,
+            size: 10,
             species: " Clown Triggerfish",
             harvested: " 2015"
         },
@@ -40,6 +40,9 @@ const database = {
         }
     ]
 }
+
+
+
 
 // Returns a copy of the fish array.
 export const getFish = () => {

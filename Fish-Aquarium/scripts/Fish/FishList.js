@@ -29,7 +29,6 @@ export const FishList = () => {
 `
     }
     htmlString += `</article>`
-
     return htmlString
 }
 
@@ -85,6 +84,8 @@ export const fishSoldierList = () => {
     return htmlString
 }
 
+
+
 export const fishRegList = () => {
     // Invoke the function that you imported from the database module
     const fishes = nonHolyFish()
@@ -97,7 +98,7 @@ export const fishRegList = () => {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish__card">
-            <div><img  class="fish__image image--card" src="${singleFish.image}" /></div>
+            <div><img  class="fish__image" src="${singleFish.image}" /></div>
             <div class="fish__name"><span>Name:</span>${ singleFish.name}</div>
             <div class="fish__species"><span>Species:</span>  ${singleFish.species}</div>
             <div class="fish__length"><span>Length:</span>  ${singleFish.size}</div>
@@ -107,6 +108,6 @@ export const fishRegList = () => {
 `
     }
     htmlString += `</article>`
-
     return htmlString
+    
 }

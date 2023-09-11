@@ -11,14 +11,14 @@ import { getFish } from './Fish/database.js';
 
  // Import the FishList function from the correct module
  import { FishList } from './Fish/FishList.js'; 
+  
+ 
+    //What is the CSS selector for the element where you
+    // want to display the fish?
 
-    /*
-    What is the CSS selector for the element where you
-    want to display the fish?
-
-    Use . for elements with a "class" attribute
-    Use # for elements with an "id" attribute
-    */
+    //Use . for elements with a "class" attribute
+    //Use # for elements with an "id" attribute
+    
     const parentHTMLElement = document.querySelector(".allFish")
     parentHTMLElement.innerHTML = FishList()
 
@@ -26,21 +26,21 @@ import { getFish } from './Fish/database.js';
 
 
  import { fishHolyList } from './Fish/FishList.js';  
-    const parentHTMLElement = document.querySelector(".fishHoly")
-        parentHTMLElement.innerHTML = fishHolyList()
+    const parentHTMLElementHoly = document.querySelector(".fishHoly")
+        parentHTMLElementHoly.innerHTML = fishHolyList()
 
 
 
 
  import { fishSoldierList } from './Fish/FishList.js'  
-    const parentHTMLElement = document.querySelector(".fishSoldier")
-        parentHTMLElement.innerHTML = fishSoldierList()
+    const parentHTMLElementSoldier = document.querySelector(".fishSoldier")
+        parentHTMLElementSoldier.innerHTML = fishSoldierList()
 
 
 
 
  import { fishRegList } from './Fish/FishList.js'  
-    const parentHTMLElement = document.querySelector(".fishRegular")
-        parentHTMLElement.innerHTML = fishRegList()
+    const parentHTMLElementReg = document.querySelector(".fishRegular")
+        parentHTMLElementReg.innerHTML = fishRegList()
 
 
