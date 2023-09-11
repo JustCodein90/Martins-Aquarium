@@ -1,16 +1,10 @@
-/*
- *  To get you started, here's some properties of Bart.
- *  You need to add more properties to complete his
- *  representation as an object. Then add all the other
- *  fish to the collection.
- */
 const database = {
     fish: [
          {
             image: "https://images.squarespace-cdn.com/content/v1/583b4d62d2b857c44d4d4c90/1514496524333-Y7URQCXN8O2V16ZFBW1B/Clown_Triggerfish.jpg",
             name: " Bart",
             food: " Crustaceans",
-            size: 18,
+            size: 10,
             species: " Clown Triggerfish",
             harvested: " 2015"
         },
@@ -42,7 +36,8 @@ const database = {
 }
 
 // Returns a copy of the fish array.
-export const getFish = () => {
+//export 
+const getFishes = () => {
     return database.fish.map(copyOfSingleFishObject => ({...copyOfSingleFishObject}))
 }
 
@@ -51,10 +46,10 @@ export const mostHolyFish = () => {
 
     const holyFish = []
 
-    for (const getHolyFish of getFish())  {
+    for (const getFish of getFishes())  {
        
-        if (getHolyFish.size % 3 === 0)  {
-           holyFish.push(getHolyFish)
+        if (getFish.size % 3 === 0)  {
+           holyFish.push(getFish)
         }
          
     } 
@@ -65,7 +60,7 @@ export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
     const soldiers = []
 
-    for (const getSoldiers of getFish()) {
+    for (const getSoldiers of getFishes()) {
         
         if (getSoldiers.size % 5 === 0)
             soldiers.push(getSoldiers)
@@ -78,7 +73,7 @@ export const nonHolyFish = () => {
     // Any fish not a multiple of 3 or 5
     const regularFish = []
 
-    for (const getRegFish of getFish()) {
+    for (const getRegFish of getFishes()) {
         
         if (getRegFish.size % 3 !== 0 && getRegFish.size % 5 !== 0 ) {
             regularFish.push(getRegFish)
@@ -87,3 +82,4 @@ export const nonHolyFish = () => {
     }
     return regularFish
 }
+
