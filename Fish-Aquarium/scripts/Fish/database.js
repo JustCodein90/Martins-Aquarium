@@ -15,8 +15,8 @@ const database = {
             harvested: " 2015"
         },
         {
-            image: "https://cdn.britannica.com/44/4144-004-43DD2776/Peneus-setiferus.jpg",
-            name: " Tim (Shrimp)",
+            image: "https://tropical-fish-keeping.com/wp-content/uploads/2018/05/Red-Cherry-shrimp-Neocaridina-heteropoda2.jpg",
+            name: " Tim (Red Cherry Shrimp)",
             food: " Algae",
             size:  2,           
             species: " Crustaceans",
